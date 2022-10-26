@@ -13,6 +13,7 @@ $model = mysqli_fetch_assoc($sql);
 
 if (isset($_POST['Simpan'])) {
     $noreg          = sanitizeQuery($koneksi, $_POST['noreg']);
+    $noreg          = sprintf("%015d", $noreg);
     $nama           = sanitizeQuery($koneksi, $_POST['nama']);
     $umur           = sanitizeQuery($koneksi, $_POST['umur']);
     $kiri           = sanitizeQuery($koneksi, $_POST['klasifikasi_kiri']);
@@ -165,7 +166,7 @@ async function predict(image, mata) {
 async function loadd(event) {
     event.innerHTML = "<i class='spinner-border spinner-border-sm'></i>"
     try {
-        model = await tf.loadLayersModel('./assets/model/<?= $model['model'] ?>/model.json');
+        model = await tf.loadLayersModel('./assets/model/<?= $model['tgl_upload'] ?>/model.json');
         document.getElementById("imagesUpload").style.display = "flex";
         event.style.display = "none";
     } catch (e) {

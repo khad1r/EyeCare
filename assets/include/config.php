@@ -1,8 +1,8 @@
 <?php
 $DB_CONFIG = array(
     'host' => 'localhost',
-    'username' => 'root',
-    'password' => '',
+    'username' => 'username',
+    'password' => 'password',
     'dbname' => 'eyecare'
 );
 

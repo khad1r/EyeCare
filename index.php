@@ -63,6 +63,15 @@ $page = isset($_REQUEST['page']) ? $_REQUEST['page'] : '';
                         <li class="nav-item <?= $page == 'user' ? 'text-muted' : '' ?>">
                             <a class="nav-link" href="?page=user">User</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="<?= "http://" . $_SERVER['SERVER_NAME'] . ":8888/notebooks/Ai%20Development.ipynb" ?>"
+                                target="_blank">
+                                <u>Open
+                                    Jupyter
+                                    Notebook</u></a>
+                        </li>
                         <?php
                         }
                         ?>

@@ -43,48 +43,8 @@ if (isset($_GET['apply'])) {
             <div class="col-sm me-auto">
                 <h2><strong> Manajemen Model AI </strong></h2>
             </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-outline-primary btn-xl float-end" data-toggle="modal"
-                    data-target="#userAddModal">
-                    Tambah Model
-                </button>
-            </div>
         </div>
         <hr>
-        <div class="modal fade" id="userAddModal" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <form method="post" name="submit" enctype="multipart/form-data">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title" id="exampleModalLongTitle">
-                                Tambahkan Model CNN
-                            </h4>
-                            <a class="btn btn-lg close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </a>
-                        </div>
-                        <div class="modal-body">
-                            <div class="file-input mt-3">
-                                <input type="file" id="formFile" name="File" class="file" accept=".json">
-                                <label for="formFile" class="mb-2">
-                                    <span class="btn btn-lg">
-                                        Upload File Model
-                                    </span>
-                                    <p class="file-name ms-2 my-auto"></p>
-                                </label>
-                                <small class="text-danger">* Format file yang diperbolehkan *.json!!
-                                </small>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Batal</button>
-                            <button type="submit" name="submit" class="btn btn-success">Simpan</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-
         <div class="table-responsive">
             <table class="table table-hover" id="myTable">
                 <thead class="thead-inverse">

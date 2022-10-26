@@ -42,7 +42,7 @@ CREATE TABLE `deskripsi_penyakit` (
 
 INSERT INTO `deskripsi_penyakit` (`id`, `gambar`, `penyakit`, `penjelasan`) VALUES
 (1, 'Normal/3_left-N.jpg', 'Mata Normal', 'Mata Yang Normal'),
-(2, 'AMD/43_left-A.jpg', 'Degenerasi Makula Terkait Usia', 'Age-Related Macular Degeneration (degenerasi makula terkait usia) atau AMD adalah penyakit yang\nmenyerang pusat penglihatan di retina yakni makula, tanpa penyebab lain pada populasi di atas 50 tahun'),
+(2, 'Age related Macular Degeneration/43_left-A.jpg', 'Degenerasi Makula Terkait Usia', 'Age-Related Macular Degeneration (degenerasi makula terkait usia) atau AMD adalah penyakit yang\nmenyerang pusat penglihatan di retina yakni makula, tanpa penyebab lain pada populasi di atas 50 tahun'),
 (3, 'Cataract/0_left-C.jpg', 'Katarak', 'Katarak adalah setiap kekeruhanan pada lensa mata akibat hidrasi (penambahan cairan) lensa, denaturasi protein lensa atau akibat dari kedua-duanya yang biasanya mengenai kedua mata dan berjalan progresif'),
 (4, 'Diabetes/2_right-D.jpg', 'Diabetic Retinopathy', 'Diabetic Retinopathy (DR) adalah retinopati (kerusakan pada retina) yang disebabkan oleh komplikasi diabetes melitus, yang pada akhirnya dapat menyebabkan kebutaan apabila tidak ditangani dengan cepat'),
 (5, 'Glaucoma/167_left-G.jpg', 'Glaukoma', 'Glaukoma adalah penyakit mata yang ditandai oleh tekanan bola mata yang meningkat, ekskavasi dan atrofi pupil saraf optik, serta kerusakan lapang pandang yang khas'),

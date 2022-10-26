@@ -57,11 +57,11 @@ if (isset($_POST['login'])) {
             <?php
             if (isset($_SESSION['err'])) {
             ?>
-            <div class="alert alert-<?= $_SESSION['err'][0] ?> ">
-                <strong>
-                    <?= $_SESSION['err'][1] ?>
-                </strong>
-            </div>
+                <div class="alert alert-<?= $_SESSION['err'][0] ?> ">
+                    <strong>
+                        <?= $_SESSION['err'][1] ?>
+                    </strong>
+                </div>
             <?php
                 unset($_SESSION['err']);
             }
@@ -73,10 +73,10 @@ if (isset($_POST['login'])) {
     <?php include "./component/script.php"; ?>
 
     <script type="text/javascript">
-    $(document).ready(function() {
-        $(".loading-Page").hide();
-        $(".alert").alert().delay(3000).slideUp('slow');
-    });
+        $(document).ready(function() {
+            $(".loading-Page").hide();
+            $(".alert").alert().delay(3000).slideUp('slow');
+        });
     </script>
 </body>
 

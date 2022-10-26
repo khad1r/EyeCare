@@ -7,3 +7,5 @@ images/Myopia/*
 images/Normal/*
 images/Other diseases/*
 assets/model/*
+notebook/mymodel.h5
+notebook/.ipynb_checkpoints/
