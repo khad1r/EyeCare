@@ -42,31 +42,6 @@ INSERT INTO `deskripsi_penyakit` VALUES (1,'Normal/3_left-N.jpg','Mata Normal','
 UNLOCK TABLES;
 
 --
--- Table structure for table `klasifikasi mata`
---
-
-DROP TABLE IF EXISTS `klasifikasi mata`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `klasifikasi mata` (
-  `id_klasifikasi` int(25) NOT NULL AUTO_INCREMENT,
-  `no_registrasi` int(15) NOT NULL,
-  `Dokter` varchar(25) NOT NULL,
-  `Klasifikasi` varchar(255) NOT NULL,
-  PRIMARY KEY (`id_klasifikasi`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `klasifikasi mata`
---
-
-LOCK TABLES `klasifikasi mata` WRITE;
-/*!40000 ALTER TABLE `klasifikasi mata` DISABLE KEYS */;
-/*!40000 ALTER TABLE `klasifikasi mata` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `model_cnn`
 --
 
